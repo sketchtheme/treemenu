@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    {% load menu_extract %}
+    <meta charset="UTF-8">
+    <title>Menu Item</title>
+    {% comment %} <link rel="stylesheet" type="text/css" href="{% static 'some_app/css/some_app.css' %}" /> {% endcomment %}
+</head>
+<body>
+
+{% draw_menu 'product_menu' %}
+{% draw_menu 'services' %}
+</body>
+</html>
